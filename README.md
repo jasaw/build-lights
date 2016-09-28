@@ -21,9 +21,11 @@ You'll need:
 * Digital RGB LED Weatherproof Strip LEDs (1m)
   * adafruit - https://www.adafruit.com/products/306
   * AliExpress Lighting Boutique - http://www.aliexpress.com/item/1M-LPD8806-32leds-m-48leds-m-52leds-m-60leds-m-optional-Waterproof-or-Non-Waterproof-LPD8806/32345061646.html
+  * Little bird electronics - https://littlebirdelectronics.com.au/products/digital-rgb-led-weatherproof-strip-lpd8806-32-led-1m
 * 4-pin JST SM Plug + Receptacle Cable Set
   * adafruit - http://www.adafruit.com/products/578
   * AliExpress Cool Light LED Technologies - http://www.aliexpress.com/item/4Pin-SM-connector-4Way-Multipole-Connector-cable-plug-With-wire-ternimal-male-and-female-set-5pcs/32418707788.html
+  * Little bird electronics - https://littlebirdelectronics.com.au/products/4-pin-jst-sm-plug-receptacle-cable-set
 * 5V 2A (2000mA) UL Listed switching power supply (Warning: We need at least 3A power supply, but this will do as long as the lights are *NOT* on full brightness all at the same time) - https://www.adafruit.com/products/276
 * Micro USB to 5.5mm female DC jack (Part Number: VUPN7718) - http://www.vetco.net/catalog/product_info.php?products_id=14954
 * 4-pin 0.1" (2.54mm) pitch male header

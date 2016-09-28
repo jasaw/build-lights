@@ -3,7 +3,7 @@ import adafruit_lpd8806 as ledstrip
 #import epistar_lpd8806 as ledstrip
 import signal
 
-led = ledstrip.Strand()
+led = ledstrip.Strand(num_leds=48)
 
 
 def _handle_signals(signum, stack):
@@ -29,7 +29,15 @@ def run():
     led.fill(255,0,255,False,12,15)
     led.fill(0,255,255,True,15,18)
     led.fill(255,255,255,False,18,21)
-    led.fill(80,127,255,True,21)
+    led.fill(80,127,255,True,21,24)
+    led.fill(127,80,255,True,24,27)
+    led.fill(80,127,80,True,27,30)
+    led.fill(80,30,255,True,30,33)
+    led.fill(255,80,0,True,33,36)
+    led.fill(0,255,80,True,36,39)
+    led.fill(80,0,255,True,39,42)
+    led.fill(127,0,255,True,42,45)
+    led.fill(0,255,127,True,45,48)
 
     time.sleep(1)
     led.setblink(2, True)
